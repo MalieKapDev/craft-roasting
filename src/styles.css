@@ -274,6 +274,67 @@ body {
   padding-right: 5px;
 }
 
+/* Styling for work equiry container */
+.work-enquiry-container {
+  border: 1.5px solid var(--light-green);
+  background-color: var(--off-white-green);
+  border-radius: 15px;
+}
+
+/* Styling for work equiry container headings*/
+.work-enquiry-container h2 {
+  font-size: 48px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 64px;
+  color: var(--dark-brown);
+}
+
+.work-enquiry-container p {
+  font-size: 18px;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--light-brown);
+}
+
+/* Styling for work equiry button */
+.lets-talk {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10%;
+}
+
+/* Styling for work equiry container links*/
+.about-email {
+  text-align: center;
+}
+
+.about-icons {
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for contact container headings */
+.contact-container h3 {
+  font-size: 64px;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 86px;
+  margin-bottom: 32px;
+  color: var(--dark-brown);
+}
+
+.contact-container p {
+  font-size: 20px;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 30px;
+  color: var(--primary-brown);
+}
+
 @media (max-width: 900px) {
   .hero-container {
     padding: 30px 10px 0 10px;
