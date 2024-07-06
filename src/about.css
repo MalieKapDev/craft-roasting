@@ -120,11 +120,15 @@ body {
 /* Style for our team container */
 .card {
   background-color: var(--second-black);
-  border: 1px solid var(--primary-white);
+  border: 1px solid var(--second-white);
   border-radius: 0;
 }
 .our-team-container {
   background-color: var(--primary-black);
+}
+
+.our-team-container-inner {
+  padding-left: 175px;
 }
 
 .team-img-top {
@@ -133,7 +137,7 @@ body {
 
 .card-body {
   background-color: var(--second-black);
-  border: 1px solid var(--primary-white);
+  border: 1px solid var(--second-white);
   border-radius: 0;
 }
 
@@ -149,12 +153,14 @@ body {
   text-align: center;
 }
 
-.card-title {
+#card-title-1,
+#card-title-2,
+#card-title-3 {
   font-size: 24px;
   font-family: var(--font-heading);
   font-weight: 700;
   text-align: center;
-  color: var(--primary-white);
+  color: var(--primary-color);
 }
 
 .card-text {
@@ -186,6 +192,38 @@ body {
   color: var(--primary-color);
   opacity: 0.8;
   transform: scale(1.5);
+}
+
+/* Style for contact container */
+.contact-container {
+  padding: 40px 450px 20px 450px;
+  background-color: var(--primary-black);
+}
+
+.contact-container-inner {
+  padding: 20px;
+  background-color: var(--second-black);
+  border: 1px solid var(--second-white);
+  border-radius: 0;
+}
+
+/* Style for contact container headings*/
+.contact-container h3 {
+  font-size: 36px;
+  text-wrap: nowrap;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 50px;
+  color: var(--primary-white);
+}
+
+.contact-container p {
+  font-size: 20px;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: var(--primary-white);
 }
 
 /* Style for footer */
